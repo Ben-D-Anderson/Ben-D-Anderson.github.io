@@ -6,9 +6,6 @@
     * [ClassCharts-API](#classcharts-api)
 * Minecraft Plugins
     * [Replay](#replay)
-    * [CasinoCrates](#casinocrates)
-    * [MobCoins](#mobcoins)
-    * [BuycraftClaimer](#buycraftclaimer)
 
 <hr>
 
@@ -78,48 +75,3 @@ Features:
 - Highly configurable
 
 <br />
-
-<a name="casinocrates"></a>
-## CasinoCrates ([Link](https://github.com/Ben-D-Anderson/CasinoCrates))
-CasinoCrates is a Minecraft plugin I made which follows the idea of a classic crate plugin however it contains some unique features which follow the idea of a casino.
-
-Demonstration: https://youtu.be/R9UFswV8yFU 
-<br />
-
-Features:
-- Highly configurable
-- Supports command and item rewards
-- Unique animations
-- MySQL integration
-
-<br />
-
-<a name="mobcoins"></a>
-## MobCoins ([Link](https://github.com/Ben-D-Anderson/MobCoins))
-MobCoins is a Minecraft plugin I made which follows the idea of a classic mobcoins plugin, giving you a chance at obtaining a coin when you kill a monster. MobCoin also has a built in and customisable shop system with unique features such as command and item products as well as featured items.
-
-Demonstration: https://youtu.be/EWaE0vYWzFw
-<br />
-
-Features:
-- Fully customisable
-- Rotate featured items in the shop
-- Different categories in the shop
-- Normal mobcoin plugin features
-- Administrative commands
-
-<br />
-
-<a name="buycraftclaimer"></a>
-## BuycraftClaimer ([Link](https://github.com/Ben-D-Anderson/BuycraftClaimer))
-BuycraftClaimer is a Minecraft plugin I made which allows users to claim the buycraft purchases they have made and for server administrators to manage them.
-
-Demonstration: https://youtu.be/yxkHYDZOjvg
-<br />
-
-Features:
-- View claim history of users
-- Interactive GUI with paging support
-- Give claims to users
-- Reissue previous claims to users
-- Transaction IDs stored
