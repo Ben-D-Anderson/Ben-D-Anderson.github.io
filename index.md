@@ -1,37 +1,125 @@
-## Welcome to GitHub Pages
+# Repositories #
 
-You can use the [editor on GitHub](https://github.com/Ben-D-Anderson/Ben-D-Anderson.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
+* Software Development Projects
+    * [Backed-Site](#backed-site)
+    * [Backed-SDK](#backed-sdk)
+    * [ClassCharts-API](#classcharts-api)
+* Minecraft Plugins
+    * [Replay](#replay)
+    * [CasinoCrates](#casinocrates)
+    * [MobCoins](#mobcoins)
+    * [BuycraftClaimer](#buycraftclaimer)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<hr>
 
-### Markdown
+<a name="backed-site"></a>
+## Backed-Site ([Link](https://github.com/Ben-D-Anderson/Backed-Site))
+Backed-Site is the website backend for the file backup system I made called Backed.
+Backed is very security focused and therefore has encryption on user data with files never being stored on the server unencrypted.
+<br />
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Features:
+- Account management
+- MySQL integration
+- REST API
+- File management and cryptography
+- Mailing
 
-```markdown
-Syntax highlighted code block
+<br />
 
-# Header 1
-## Header 2
-### Header 3
+<a name="backed-sdk"></a>
+## Backed-SDK ([Link](https://github.com/Ben-D-Anderson/Backed-SDK))
+Backed-SDK is the software development kit for the file backup system I made called Backed.
+The SDK interacts with the REST API in the website and creates user-friendly objects to be interacted with.
+<br />
 
-- Bulleted
-- List
+Features:
+- Login as users
+- Upload files
+- Download files
+- Delete files
+- Get hashes of files
+- List files
+- Logout as users
 
-1. Numbered
-2. List
+<br />
 
-**Bold** and _Italic_ and `Code` text
+<a name="classcharts-api"></a>
+## ClassCharts-API ([Link](https://github.com/Ben-D-Anderson/ClassCharts-API))
+ClassCharts-API is an API that I made to easily interact with the website "ClassCharts" through Java.
+<br />
 
-[Link](url) and ![Image](src)
-```
+Features:
+- Login as a student
+- Access and interact with homeworks assigned to the student
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+<br />
 
-### Jekyll Themes
+<a name="replay"></a>
+## Replay ([Link](https://github.com/Ben-D-Anderson/Replay))
+Replay is a 1.7.10 Minecraft plugin I made which stores and replays player-based-events that occurred on a server.
+Replay displays the events in chronological, packet based way, this means that when an administrator is replaying the events only they can see anything that is happening as to not disturb other players.
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Ben-D-Anderson/Ben-D-Anderson.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+Demonstration: https://youtu.be/whTTk4MZhgg
+<br />
 
-### Support or Contact
+Features:
+- View player's inventory (right click them)
+- View rough player movements
+- View block changes
+- View player joining and leaving
+- View skins
+- Change speed of replay
+- Change radius of replay
+- Choose time to play replay from (either from time unit ago or UNIX timestamp)
+- Pause and resume replays
+- Death and damage events in chat
+- Optimized for performance
+- Highly configurable
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+<br />
+
+<a name="casinocrates"></a>
+## CasinoCrates ([Link](https://github.com/Ben-D-Anderson/CasinoCrates))
+CasinoCrates is a Minecraft plugin I made which follows the idea of a classic crate plugin however it contains some unique features which follow the idea of a casino.
+
+Demonstration: https://youtu.be/R9UFswV8yFU 
+<br />
+
+Features:
+- Highly configurable
+- Supports command and item rewards
+- Unique animations
+- MySQL integration
+
+<br />
+
+<a name="mobcoins"></a>
+## MobCoins ([Link](https://github.com/Ben-D-Anderson/MobCoins))
+MobCoins is a Minecraft plugin I made which follows the idea of a classic mobcoins plugin, giving you a chance at obtaining a coin when you kill a monster. MobCoin also has a built in and customisable shop system with unique features such as command and item products as well as featured items.
+
+Demonstration: https://youtu.be/EWaE0vYWzFw
+<br />
+
+Features:
+- Fully customisable
+- Rotate featured items in the shop
+- Different categories in the shop
+- Normal mobcoin plugin features
+- Administrative commands
+
+<br />
+
+<a name="buycraftclaimer"></a>
+## BuycraftClaimer ([Link](https://github.com/Ben-D-Anderson/BuycraftClaimer))
+BuycraftClaimer is a Minecraft plugin I made which allows users to claim the buycraft purchases they have made and for server administrators to manage them.
+
+Demonstration: https://youtu.be/yxkHYDZOjvg
+<br />
+
+Features:
+- View claim history of users
+- Interactive GUI with paging support
+- Give claims to users
+- Reissue previous claims to users
+- Transaction IDs stored
