@@ -4,6 +4,7 @@
     * [Backed-Site](#backed-site)
     * [Backed-SDK](#backed-sdk)
     * [ClassCharts-API](#classcharts-api)
+    * [PublicSMS](#publicsms)
 * Minecraft Plugins
     * [Replay](#replay)
 
@@ -48,7 +49,24 @@ ClassCharts-API is an API that I made to easily interact with the website "Class
 
 Features:
 - Login as a student
-- Access and interact with homeworks assigned to the student
+- Access and interact with student homeworks
+- Access and interact with student timetable
+
+<br />
+
+<a name="publicsms"></a>
+## PublicSMS ([Link](https://github.com/Ben-D-Anderson/PublicSMS))
+PublicSMS is a program which scraped implemented sites for public temporary phone numbers and uses them to receive text messages from a target phone. It also uses implemented sending methods to spoof messages from that number so that the target phone can have a fully functional conversation with the public temporary phone without the user of the application using their real phone number.
+
+Warning:
+- All text messages sent by the target phone to the public temporary phone are publicly accessible and readable, including the number of the target phone.
+- Implementations from the websites it scrapes are subject to change at any time so may not always be functional.
+- To spoof messages from the public temporary phone number, the program currently uses a service called Clockwork-SMS (renamed TextAnywhere) which requires an account, api key and credit - each text costs approximately £0.055 to send. This service is not necessarily anonymous as they do not support anonymous payment methods. If you wish to utilise this application with an anonymous sms sender, it is recommended you find a service that can spoof messages and create an issue referencing the service so it can be implemented - or implement it yourself with a pull request.
+<br />
+
+Features:
+- Send and receives SMS messages without using your own phone number.
+- Easily add your own implementations of websites to get public temporary phone numbers from or services to send sms messages from.
 
 <br />
 
