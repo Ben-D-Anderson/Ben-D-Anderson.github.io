@@ -72,6 +72,8 @@ Features:
 
 <a name="instantreplay"></a>
 ## InstantReplay ([Link](https://github.com/Ben-D-Anderson/InstantReplay))
+WARNING: Plugin is currently being refactored and is not currently functional.
+
 Replay is a 1.7.10 Minecraft plugin I made which stores and replays player-based-events that occurred on a server.
 Replay displays the events in chronological, packet based way, this means that when an administrator is replaying the events only they can see anything that is happening as to not disturb other players.
 
